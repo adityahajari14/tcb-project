@@ -1,0 +1,22 @@
+{
+  "name": "tcb-project",
+  "version": "1.0.0",
+  "description": "Full-stack chat application with React and Express",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd web && npm run dev\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:web": "cd web && npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../web && npm install"
+  },
+  "keywords": [
+    "chat",
+    "gemini",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
